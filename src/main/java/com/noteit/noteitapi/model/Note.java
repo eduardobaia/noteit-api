@@ -63,4 +63,20 @@ public class Note {
     public void setText(String text) {
         this.text = text;
     }
+
+    public Notebook getNotebook() {
+        return notebook;
+    }
+
+    public void setNotebook(Notebook notebook) {
+        this.notebook = notebook;
+    }
+
+    public Date getLastModifiedOn() {
+        return lastModifiedOn;
+    }
+
+    public void setLastModifiedOn(Date lastModifiedOn) {
+        this.lastModifiedOn = lastModifiedOn;
+    }
 }
