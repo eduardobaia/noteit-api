@@ -1,8 +1,11 @@
 package com.noteit.noteitapi.api;
 
 import com.noteit.noteitapi.Mapper;
+import com.noteit.noteitapi.api.viewmodel.NoteViewModel;
 import com.noteit.noteitapi.db.NoteRepository;
 import com.noteit.noteitapi.db.NotebookRepository;
+import com.noteit.noteitapi.model.Note;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.EntityNotFoundException;
